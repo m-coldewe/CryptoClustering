@@ -37,18 +37,22 @@ To test for better results with principal component analysis:
 
 #### Elbow Curve using the Dataset (scaled only)
 ![original_elbow_curve](https://github.com/m-coldewe/CryptoClustering/assets/152045367/4e08d8a4-7e5d-4d68-8590-fa0a7d39a4d7)
+
 The optimal k-value according the chart appeears to be 4.
 
 #### The Resulting Prediction
 ![original_prediction_scatter](https://github.com/m-coldewe/CryptoClustering/assets/152045367/34fff998-26ba-4eee-8149-b885c3280116)
+
 While the blue (0) cluster clearly exhibt some sort of grouping, the other clusters don't.
 
 #### Elbow Curve using the PCA Dataset
 ![pca_elbow_curve](https://github.com/m-coldewe/CryptoClustering/assets/152045367/1d5d4cfd-008d-466f-8b39-51b72d251b47)
+
 While more pronounced, the optimal k-value still appears to be 4.
 
 #### The Resulting Prediction using PCA Dataset
 ![pca_prediction_scatter](https://github.com/m-coldewe/CryptoClustering/assets/152045367/4f4e2947-89db-4f26-b36b-0c82760cb005)
+
 Here, there are two primary clusters.
 
 To better visualize the differences:
